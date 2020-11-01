@@ -2,7 +2,7 @@
 
 namespace Kata;
 
-class Index
+class FizzBuzz
 {
     public function handle(): bool
     {
