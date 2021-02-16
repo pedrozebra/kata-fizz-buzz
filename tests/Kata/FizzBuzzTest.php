@@ -5,7 +5,7 @@ namespace Kata;
 use PHPUnit\Framework\TestCase;
 use Kata\FizzBuzz;
 
-class FuzzBuzzTest extends TestCase
+class FizzBuzzTest extends TestCase
 {
     private $fizzBuzz;
 
