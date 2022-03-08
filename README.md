@@ -1,4 +1,28 @@
-## KATA SKELETON DANIELESAULSCILLIA - PHP VERSION
+## KATA SKELETON - PHP VERSION
 
 # FIZZ BUZZ
-Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+Write a program that prints the numbers from 1 to 100, but with some exceptions: 
+- for all numbers that are multiples of 3, print “Fizz” instead of the number itself
+- for all numbers that are multiples of 5, print “Buzz” instead of the number itself
+- for all numbers that are multiples of both 3 and 5, print “FizzBuzz” instead of the number itself
+
+## Input/Output table
+
+| Input 	| Output 	|
+|-------	|--------	|
+| 1     	| 1      	|
+| 2     	| 2      	|
+| 3     	| Fizz   	|
+| 4     	| 4      	|
+| 5     	| Buzz   	|
+| 6     	| Fizz   	|
+| 7     	| 7     	|
+| 8     	| 8     	|
+| 9     	| 9   	  |
+| 10     	| Buzz   	|
+| 11     	| 11    	|
+| 12     	| Fizz   	|
+| 13     	| 13    	|
+| 14     	| 14    	|
+| 15     	| FizzBuzz|
