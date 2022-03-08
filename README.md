@@ -26,3 +26,15 @@ Write a program that prints the numbers from 1 to 100, but with some exceptions:
 | 13     	| 13    	|
 | 14     	| 14    	|
 | 15     	| FizzBuzz|
+| ...    	| ...     |
+| 90     	| FizzBuzz|
+| 91     	| 91      |
+| 92     	| 92      |
+| 93     	| Fizz    |
+| 94    	| 94      |
+| 95     	| Buzz    |
+| 96     	| Fizz    |
+| 97     	| 97      |
+| 98     	| 98      |
+| 99     	| Fizz    |
+| 100    	| Buzz    |
