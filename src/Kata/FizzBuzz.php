@@ -17,4 +17,14 @@ class FizzBuzz
         }
         return $result;
     }
+
+    public function isMultipleOfThree(int $num): bool
+    {
+        return $num % 3 === 0;
+    }
+
+    public function isMultipleOfFive(int $num): bool
+    {
+        return $num % 5 === 0;
+    }
 }
