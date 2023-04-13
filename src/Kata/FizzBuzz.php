@@ -8,4 +8,13 @@ class FizzBuzz
     {
         return true;
     }
+    
+    public function writeRangeNumbers(int $start, int $end): array
+    {
+        $result = [];
+        for($i = $start; $i <= $end; $i++) {
+            $result[] = $i;
+        }
+        return $result;
+    }
 }
