@@ -35,11 +35,20 @@ class FizzBuzzTest extends TestCase
 
     public function testNumberIsMultipleOfThree(): void
     {
-        $this->fizzBuzz->isMultipleOfThree(4);
+        $this->assertEquals(false, $this->fizzBuzz->isMultipleOfThree(4));
+        $this->assertEquals(false, $this->fizzBuzz->isMultipleOfThree(1));
+        $this->assertEquals(true, $this->fizzBuzz->isMultipleOfThree(6));
+        $this->assertEquals(true, $this->fizzBuzz->isMultipleOfThree(99));
+        $this->assertEquals(false, $this->fizzBuzz->isMultipleOfThree(13));
     }
 
     public function testNumberIsMultipleOfFive(): void
     {
-        $this->fizzBuzz->isMultipleOfFive(6);
+        $this->assertEquals(false, $this->fizzBuzz->isMultipleOfFive(4));
+        $this->assertEquals(false, $this->fizzBuzz->isMultipleOfFive(14));
+        $this->assertEquals(false, $this->fizzBuzz->isMultipleOfFive(91));
+        $this->assertEquals(true, $this->fizzBuzz->isMultipleOfFive(10));
+        $this->assertEquals(true, $this->fizzBuzz->isMultipleOfFive(90));
+        $this->assertEquals(true, $this->fizzBuzz->isMultipleOfFive(95));
     }
 }
