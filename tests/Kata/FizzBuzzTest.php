@@ -51,4 +51,18 @@ class FizzBuzzTest extends TestCase
         $this->assertEquals(true, $this->fizzBuzz->isMultipleOfFive(90));
         $this->assertEquals(true, $this->fizzBuzz->isMultipleOfFive(95));
     }
+
+    public function testGenerateFizzBuzz(): void
+    {
+        $inputArray = $this->fizzBuzz->writeRangeNumbers(1,100);
+        $result = $this->fizzBuzz->generateFizzBuzz($inputArray);
+        $this->assertEquals(1, $result[0]);
+        $this->assertEquals(7, $result[6]);
+        $this->assertEquals("Buzz", $result[9]);
+        $this->assertEquals("Fizz", $result[11]);
+        $this->assertEquals("FizzBuzz", $result[14]);
+        $this->assertEquals("FizzBuzz", $result[89]);
+        $this->assertEquals("Fizz", $result[92]);
+        $this->assertEquals("Buzz", $result[99]);
+    }
 }
